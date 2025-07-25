@@ -12,12 +12,12 @@
 - **Hierarchical SVD Decomposition**: Multi-scale singular value decomposition for parameter compression and adaptation
 - **Meta-Learning Integration**: MAML-based fast adaptation with task-specific learning
 - **Uncertainty-Aware Policy**: Bayesian uncertainty estimation for intelligent scaling decisions
-- **Reinforcement Learning Optimization**: GRPO (Generalized Reward Policy Optimization) for policy learning
+- **Reinforcement Learning Optimization**: GRPO (Group Relative Policy Optimization) for policy learning
 - **Continual Learning**: Elastic Weight Consolidation (EWC) for knowledge retention
 - **Cross-Entropy Method (CEM)**: Few-shot inference optimization
 - **Comprehensive Evaluation**: Real benchmark evaluation on SQuAD, GSM8K, ARC, and code datasets
 - **Advanced Monitoring**: W&B and TensorBoard integration with interactive visualizations
-
+s
 ## 📦 Installation
 
 ### Quick Install
@@ -173,19 +173,6 @@ ASN supports multiple task types with real benchmark evaluation:
 - **Dataset**: MBPP, HumanEval
 - **Metrics**: Syntax Accuracy, Semantic Similarity
 - **Format**: Problem description to Python code
-
-## 📊 Performance
-
-ASN achieves competitive performance across multiple benchmarks:
-
-| Task | Baseline | ASN | Improvement |
-|------|----------|-----|-------------|
-| SQuAD F1 | 82.3% | 85.7% | +3.4% |
-| GSM8K Accuracy | 15.2% | 23.8% | +8.6% |
-| ARC Easy | 61.4% | 67.2% | +5.8% |
-| MBPP Syntax | 45.1% | 52.3% | +7.2% |
-
-*Results with GPT-2 base model. Performance varies by model size and configuration.*
 
 ## 🔬 Research Features
 
